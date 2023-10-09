@@ -25,14 +25,9 @@ teisendamine()
 i = parseFloat(prompt("Sisesta esimene arv"))
 j = parseFloat(prompt("Sisesta teine arv"))
 
-function kalkulaator(i,j) {
-   
-}
-
 let summa = i + j
 console.log("Arvude summa on " + summa)
 
-kalkulaator(i,j)
 
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
