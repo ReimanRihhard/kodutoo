@@ -1,5 +1,4 @@
-function checkTemp(i) {
-   console.log("Temperatuur: " + i)
+function checkTemp(i){
 
     if (i <= 20 && i > 0){
     console.log(-1)
@@ -17,4 +16,4 @@ function checkTemp(i) {
     }
 }
 
-checkTemp(i)
+checkTemp()
