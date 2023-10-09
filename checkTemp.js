@@ -3,17 +3,19 @@ let i = parseFloat(prompt("Sisesta temperatuur"))
 function checkTemp() {
    
 
-    if (i <= 20){
+    if (i <= 20 && i > 0){
     console.log(-1)
    
-    } else if (i <= 40){
+    } else if (i <= 40 && i > 0){
         console.log(0)
    
-    } else if (i <= 60){
+    } else if (i <= 60 && i > 0){
         console.log(1)
    
-    } else {
-        console.log("Temperatuur on miinuses I I Temperatuur liiga suur")
+    } else if (i > 60 && i > 0){
+        console.log("Temperatuur liiga suur")
+    }  else if (i < 0) {
+       console.log("Temperatuur on miinuses")
     }
 }
 
