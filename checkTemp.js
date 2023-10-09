@@ -1,6 +1,4 @@
-i = parseFloat(prompt("Sisesta temperatuur"))
-
-function checkTemp() {
+function checkTemp(i) {
    console.log("Temperatuur: " + i)
 
     if (i <= 20 && i > 0){
@@ -19,4 +17,4 @@ function checkTemp() {
     }
 }
 
-checkTemp()
+checkTemp(i)
