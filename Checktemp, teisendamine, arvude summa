@@ -1,0 +1,60 @@
+Teisendamine
+
+let minutid = 0
+let tunnid = 0
+let päevad = 0
+i = parseFloat(prompt())
+
+function teisendamine() {
+    let minutid = i / 60
+    let tunnid = minutid / 60
+    let päevad = tunnid / 24
+
+    console.log(Math.floor(minutid) + " minuteid")
+    console.log(Math.floor(tunnid) + " tunde")
+    console.log(Math.floor(päevad) + " päeva")
+
+}
+
+teisendamine()
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Arvude summa
+
+i = parseFloat(prompt("Sisesta esimene arv"))
+j = parseFloat(prompt("Sisesta teine arv"))
+
+function kalkulaator(i,j) {
+   
+}
+
+let summa = i + j
+console.log("Arvude summa on " + summa)
+
+kalkulaator(i,j)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+checkTemp
+
+let i = parseFloat(prompt("Sisesta temperatuur"))
+
+function tempCheck() {
+   
+
+    if (i <= 20){
+    console.log(-1)
+   
+    } else if (i <= 40){
+        console.log(0)
+   
+    } else if (i <= 60){
+        console.log(1)
+   
+    } else {
+        console.log("Temperatuur on miinuses I I Temperatuur liiga suur")
+    }
+}
+
+tempCheck()
