@@ -14,7 +14,7 @@ function checkTemp() {
    
     } else if (i > 60 && i > 0){
         console.log("Temperatuur liiga suur")
-    }  else if (i < 0) {
+    }  else {
        console.log("Temperatuur on miinuses")
     }
 }
