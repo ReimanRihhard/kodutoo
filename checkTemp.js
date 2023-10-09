@@ -1,4 +1,4 @@
-let i = parseFloat(prompt("Sisesta temperatuur"))
+i = parseFloat(prompt("Sisesta temperatuur"))
 
 function checkTemp() {
    console.log("Temperatuur: " + i)
