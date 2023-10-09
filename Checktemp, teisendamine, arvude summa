@@ -1,4 +1,4 @@
-Teisendamine
+// Teisendamine
 
 let minutid = 0
 let tunnid = 0
@@ -18,9 +18,9 @@ function teisendamine() {
 
 teisendamine()
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Arvude summa
+// Arvude summa
 
 i = parseFloat(prompt("Sisesta esimene arv"))
 j = parseFloat(prompt("Sisesta teine arv"))
@@ -34,9 +34,9 @@ console.log("Arvude summa on " + summa)
 
 kalkulaator(i,j)
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-checkTemp
+// checkTemp
 
 i = parseFloat(prompt("Sisesta temperatuur"))
 
