@@ -1,6 +1,6 @@
 let i = parseFloat(prompt("Sisesta temperatuur"))
 
-function tempCheck() {
+function checkTemp() {
    
 
     if (i <= 20){
@@ -17,4 +17,4 @@ function tempCheck() {
     }
 }
 
-tempCheck()
+checkTemp()
