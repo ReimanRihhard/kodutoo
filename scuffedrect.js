@@ -1,4 +1,4 @@
-function hollowRect(w,h){
+function rect(w,h){
     read = []
     for (i = 0; i<w; i++){
      for (j = 0; j<h; j++){    
